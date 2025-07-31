@@ -39,19 +39,23 @@ pip install -r requirements.txt
 ## Usage
 
 1. Start the Flask app
+
 python app.py
 
-2. Visit
+3. Visit
+
 http://localhost:8000
 
-3. Enter city name with optional + or ++ for extended info.
+5. Enter city name with optional + or ++ for extended info.
 
 ## Run with Docker
 
 1. Build the image
+
 docker build -t weatherapp
 
-2. Run the container
+3. Run the container
+
 docker run -d -p 8080:8000 --env-file .env weatherapp
 
 vist http://localhost:8080
@@ -67,3 +71,7 @@ Docker Hub Image: ptuyizere1/weatherapp:1.0
 | feels_like   | 21.8°C               |
 | description  | light rain           |
 +--------------+----------------------+
+
+## License
+
+This project is licensed under the MIT License.
