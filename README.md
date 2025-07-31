@@ -56,6 +56,8 @@ docker run -d -p 8080:8000 --env-file .env weatherapp
 
 vist http://localhost:8080
 
+Docker Hub Image: ptuyizere1/weatherapp:1.0
+
 ## Example Output
 
 +--------------+----------------------+
