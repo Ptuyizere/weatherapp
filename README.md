@@ -48,6 +48,10 @@ http://localhost:8000
 
 5. Enter city name with optional + or ++ for extended info.
 
+## Live Usage
+You can visit a deployed version by following this link:
+https://weatherapp-beige-mu.vercel.app/
+
 ## Run with Docker
 
 1. Build the image
